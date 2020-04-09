@@ -17,6 +17,11 @@ export default (props) => (
             <a>Blog</a>
           </Link>
         </li>
+        <li>
+          <Link href="/person">
+            <a>Person</a>
+          </Link>
+        </li>
       </ul>
     </nav>
   </div>

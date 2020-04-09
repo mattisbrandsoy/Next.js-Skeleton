@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 import Header from "./Header";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 import "./Layout.scss";
 import "./index.scss";
@@ -18,6 +18,6 @@ export default (props) => (
     </Head>
     <Header appTitle={appTitle} />
     <main>{props.content}</main>
-    <Footer navButtons={navButtons} />
+    {/* <Footer navButtons={navButtons} /> */}
   </div>
 );

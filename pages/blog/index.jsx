@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Layout from "../../components/Layout";
-import posts from "../../posts.json";
+import { posts } from "../../posts";
 
 const Blog = () => (
   <Layout
@@ -22,9 +22,5 @@ const Blog = () => (
     }
   />
 );
-
-// Blog.getInitialProps = ({ query }) => {
-//   //...
-// };
 
 export default Blog;
